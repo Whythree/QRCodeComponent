@@ -45,7 +45,7 @@ After that I continued styling the h1 and p element.
 
 I struggled with getting the element centered, since I was not aware, that justify-content and align-items affect the children of the container it is used on. So at first I was trying to use these declarations on the items inside the container. After I went one up in the hierarchy and applied it to the body it worked. 
 
-body{
+`body{
     background-color:hsl(212, 45%, 89%) ;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@ body{
     font-family: "Outfit";
     flex-direction: column;
 
-    }
+    }`
 
   I also learned, that you have to use rem units on everything font, otherwise the site can break should the user have adjusted his font size settings in the browser.   
 
